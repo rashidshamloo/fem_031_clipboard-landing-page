@@ -10,6 +10,6 @@ export const listItemHeaderStyles: SxProps = {
 export const listItemSubHeaderStyle: SxProps<Theme> = (theme: Theme) => ({
   color: theme.palette.grayishBlue.main,
   mt: 1,
-  maxWidth: "22rem",
+  maxWidth: { md: "22rem" },
   textAlign: { xs: "center", md: "left" },
 });
