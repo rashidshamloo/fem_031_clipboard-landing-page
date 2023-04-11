@@ -28,7 +28,6 @@ import { CssBaseline, Box, useMediaQuery } from "@mui/material";
 import {
   ThemeProvider,
   createTheme,
-  Theme,
   PaletteColor,
   SimplePaletteColorOptions,
 } from "@mui/material/styles";
@@ -138,17 +137,16 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <CssBaseline>
-        <Box component="main" sx={rootContainerStyles} id="section-container">
-          <Section1 id="section1" ref={sectionRef[0]} />
-          <Section2 id="section2" ref={sectionRef[1]} />
-          <Section3 id="section3" ref={sectionRef[2]} />
-          <Section4 id="section4" ref={sectionRef[3]} />
-          <Section5 id="section5" ref={sectionRef[4]} />
-        </Box>
-        {/* show navigation only on larger screens */}
-        {matches && <SectionNavigation sectionsInView={sectionInView} />}
-      </CssBaseline>
+      <CssBaseline />
+      <Box component="main" sx={rootContainerStyles} id="section-container">
+        <Section1 id="section1" ref={sectionRef[0]} />
+        <Section2 id="section2" ref={sectionRef[1]} />
+        <Section3 id="section3" ref={sectionRef[2]} />
+        <Section4 id="section4" ref={sectionRef[3]} />
+        <Section5 id="section5" ref={sectionRef[4]} />
+      </Box>
+      {/* show navigation only on larger screens */}
+      {matches && <SectionNavigation sectionsInView={sectionInView} />}
     </ThemeProvider>
   );
 }
