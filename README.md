@@ -9,6 +9,7 @@ This is a solution to the [Clipboard Landing Page challenge on Frontend Mentor](
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Blog Posts](#blog-posts)
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
@@ -43,6 +44,14 @@ https://user-images.githubusercontent.com/121501991/231036940-26bee6df-f027-4155
 - TypeScript
 - Material-UI
 - Semantic HTML5 markup
+
+### Blog Posts
+
+- I have written about my process in two blog posts. you can check them out here:
+
+    - [Clipboard Landing Page: The Process](https://dev.to/rashidshamloo/clipboard-landing-page-the-process-311i)
+
+    - [Material UI Customization (TypeScript)](https://dev.to/rashidshamloo/material-ui-customization-typescript-2hba)
 
 ### What I learned
 
