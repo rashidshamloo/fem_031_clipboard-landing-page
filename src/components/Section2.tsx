@@ -87,7 +87,7 @@ const Section2 = forwardRef(({ id }: ISection2Props, ref: Ref<HTMLElement>) => {
                   </Typography>
                 }
                 secondary={
-                  <Typography variant="subtitle1" sx={listItemSubHeaderStyle}>
+                  <Typography component="p" variant="subtitle1" sx={listItemSubHeaderStyle}>
                     Easily search your snippets by content, category, web
                     address, application, and more.
                   </Typography>
@@ -108,7 +108,7 @@ const Section2 = forwardRef(({ id }: ISection2Props, ref: Ref<HTMLElement>) => {
                   </Typography>
                 }
                 secondary={
-                  <Typography variant="subtitle1" sx={listItemSubHeaderStyle}>
+                  <Typography component="p" variant="subtitle1" sx={listItemSubHeaderStyle}>
                     Instantly saves and syncs snippets across all your devices.
                   </Typography>
                 }
@@ -128,7 +128,7 @@ const Section2 = forwardRef(({ id }: ISection2Props, ref: Ref<HTMLElement>) => {
                   </Typography>
                 }
                 secondary={
-                  <Typography variant="subtitle1" sx={listItemSubHeaderStyle}>
+                  <Typography component="p" variant="subtitle1" sx={listItemSubHeaderStyle}>
                     Retrieve any snippets from the first moment you started
                     using the app.
                   </Typography>

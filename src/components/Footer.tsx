@@ -74,7 +74,6 @@ const Footer = () => {
 
   return (
     <Stack
-      component="footer"
       sx={footerWrapperStyles}
       data-aos="fade-up"
       data-aos-delay="800"

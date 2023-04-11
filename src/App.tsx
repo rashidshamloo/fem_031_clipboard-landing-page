@@ -139,7 +139,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline>
-        <Box sx={rootContainerStyles} id="section-container">
+        <Box component="main" sx={rootContainerStyles} id="section-container">
           <Section1 id="section1" ref={sectionRef[0]} />
           <Section2 id="section2" ref={sectionRef[1]} />
           <Section3 id="section3" ref={sectionRef[2]} />

@@ -62,7 +62,7 @@ const Section4 = forwardRef(({ id }: ISection4Props, ref: Ref<HTMLElement>) => {
             >
               Create blacklists
             </Typography>
-            <Typography variant="subtitle1" sx={paperSubTitleStyles}>
+            <Typography component="p" variant="subtitle1" sx={paperSubTitleStyles}>
               Ensure sensitive information never makes its way to your clipboard
               by excluding certain sources.
             </Typography>
@@ -84,7 +84,7 @@ const Section4 = forwardRef(({ id }: ISection4Props, ref: Ref<HTMLElement>) => {
             >
               Plain text snippets
             </Typography>
-            <Typography variant="subtitle1" sx={paperSubTitleStyles}>
+            <Typography component="p" variant="subtitle1" sx={paperSubTitleStyles}>
               Remove unwanted formatting from copied text for a consistent look.
             </Typography>
           </Paper>
@@ -105,7 +105,7 @@ const Section4 = forwardRef(({ id }: ISection4Props, ref: Ref<HTMLElement>) => {
             >
               Sneak preview
             </Typography>
-            <Typography variant="subtitle1" sx={paperSubTitleStyles}>
+            <Typography component="p" variant="subtitle1" sx={paperSubTitleStyles}>
               Quick preview of all snippets on your Clipboard for easy access.
             </Typography>
           </Paper>
