@@ -20,6 +20,7 @@ This is a solution to the [Clipboard Landing Page challenge on Frontend Mentor](
 
 https://user-images.githubusercontent.com/121501991/231036940-26bee6df-f027-4155-8eb8-0e20c08cb18c.mp4
 
+<br />
 
 ![](./screenshot-desktop.png)
 
