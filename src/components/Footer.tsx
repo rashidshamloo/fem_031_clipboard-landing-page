@@ -1,7 +1,3 @@
-import { useMediaQuery, Theme } from "@mui/material";
-import { useEffect } from "react";
-
-
 //material ui
 import {
   Box,
@@ -71,10 +67,6 @@ const FooterLink = (props: LinkProps) => {
 };
 
 const Footer = () => {
-  const matches = useMediaQuery((theme: Theme) => theme.breakpoints.down("md"));
-// useEffect(()=>{console.log("matches changed!")},[matches])
-console.log (matches);
-  // console.log(matches);
   //scrolls to the top
   const scrollToTop = () => {
     document.getElementById("section-container")?.scrollTo(0, 0);
@@ -95,7 +87,7 @@ console.log (matches);
           sx={footerButtonStyles}
         >
           <img
-            src="/images/logo.svg"
+            src="images/logo.svg"
             alt="Clipboard Logo"
             width="56"
             aria-hidden="true"

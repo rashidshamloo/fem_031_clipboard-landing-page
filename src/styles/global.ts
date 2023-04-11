@@ -27,8 +27,8 @@ export const containerStylesWithBG: SxProps = {
     mb: { xs: 8, md: 0 },
   },
   backgroundImage: {
-    xs: "url('/images/bg-header-mobile.png')",
-    md: "url('/images/bg-header-desktop.png')",
+    xs: "url('images/bg-header-mobile.png')",
+    md: "url('images/bg-header-desktop.png')",
   },
   backgroundPosition: "top",
   backgroundSize: "100%",

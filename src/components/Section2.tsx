@@ -56,7 +56,7 @@ const Section2 = forwardRef(({ id }: ISection2Props, ref: Ref<HTMLElement>) => {
             width: { xs: "100%", md: "50%" },
             height: { xs: "15rem", md: "auto" },
             mb: { xs: 5, md: 0 },
-            backgroundImage: 'url("/images/image-computer.png")',
+            backgroundImage: 'url("images/image-computer.png")',
             backgroundPosition: { xs: "center", md: "right" },
             backgroundSize: "auto 100%",
             backgroundRepeat: "no-repeat",

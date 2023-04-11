@@ -35,7 +35,7 @@ const Section3 = forwardRef(({ id }: ISection3Props, ref: Ref<HTMLElement>) => {
       </Box>
       <Box sx={{ mt: { xs: "6rem", md: 0 } }}>
         <img
-          src="/images/image-devices.png"
+          src="images/image-devices.png"
           alt="Snippets on Laptop"
           style={{ maxWidth: "100%"}}
           aria-hidden="true"

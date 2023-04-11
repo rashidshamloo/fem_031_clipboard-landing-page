@@ -25,7 +25,7 @@ const Section1 = forwardRef(({ id }: ISection1Props, ref: Ref<HTMLElement>) => {
           spread out with "justify-content: space-evenly;" on mobile */}
       <Box>
         <img
-          src="/images/logo.svg"
+          src="images/logo.svg"
           alt="Clipboard Logo"
           aria-hidden="true"
           data-aos="fade-down"

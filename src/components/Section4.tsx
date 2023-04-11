@@ -53,7 +53,7 @@ const Section4 = forwardRef(({ id }: ISection4Props, ref: Ref<HTMLElement>) => {
             data-aos="fade-right"
             data-aos-delay="600"
           >
-            <img src="/images/icon-blacklist.svg" alt="" aria-hidden="true" />
+            <img src="images/icon-blacklist.svg" alt="" aria-hidden="true" />
             <Typography
               variant="h5"
               component="h3"
@@ -75,7 +75,7 @@ const Section4 = forwardRef(({ id }: ISection4Props, ref: Ref<HTMLElement>) => {
             data-aos="fade-in"
             data-aos-delay="400"
           >
-            <img src="/images/icon-text.svg" alt="" aria-hidden="true" />
+            <img src="images/icon-text.svg" alt="" aria-hidden="true" />
             <Typography
               variant="h5"
               component="h3"
@@ -96,7 +96,7 @@ const Section4 = forwardRef(({ id }: ISection4Props, ref: Ref<HTMLElement>) => {
             data-aos="fade-left"
             data-aos-delay="600"
           >
-            <img src="/images/icon-preview.svg" alt="" aria-hidden="true" />
+            <img src="images/icon-preview.svg" alt="" aria-hidden="true" />
             <Typography
               variant="h5"
               component="h3"
@@ -130,7 +130,7 @@ const Section4 = forwardRef(({ id }: ISection4Props, ref: Ref<HTMLElement>) => {
           data-aos-delay="1300"
         >
           <img
-            src="/images/logo-google.png"
+            src="images/logo-google.png"
             alt="Google Logo"
             aria-hidden="true"
           />
@@ -143,7 +143,7 @@ const Section4 = forwardRef(({ id }: ISection4Props, ref: Ref<HTMLElement>) => {
           data-aos="fade-up"
           data-aos-delay="1000"
         >
-          <img src="/images/logo-ibm.png" alt="IBM Logo" aria-hidden="true" />
+          <img src="images/logo-ibm.png" alt="IBM Logo" aria-hidden="true" />
         </Grid>
         <Grid
           item
@@ -154,7 +154,7 @@ const Section4 = forwardRef(({ id }: ISection4Props, ref: Ref<HTMLElement>) => {
           data-aos-delay="700"
         >
           <img
-            src="/images/logo-microsoft.png"
+            src="images/logo-microsoft.png"
             alt="Microsoft Logo"
             aria-hidden="true"
           />
@@ -167,7 +167,7 @@ const Section4 = forwardRef(({ id }: ISection4Props, ref: Ref<HTMLElement>) => {
           data-aos="fade-up"
           data-aos-delay="1000"
         >
-          <img src="/images/logo-hp.png" alt="HP Logo" aria-hidden="true" />
+          <img src="images/logo-hp.png" alt="HP Logo" aria-hidden="true" />
         </Grid>
         <Grid
           item
@@ -178,7 +178,7 @@ const Section4 = forwardRef(({ id }: ISection4Props, ref: Ref<HTMLElement>) => {
           data-aos-delay="1300"
         >
           <img
-            src="/images/logo-vector-graphics.png"
+            src="images/logo-vector-graphics.png"
             alt="Vector Graphics Logo"
             aria-hidden="true"
           />
